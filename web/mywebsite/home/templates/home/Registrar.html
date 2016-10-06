@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="pt-br">
+<!-- 
+    Author: Gutenberg Barros
+    Project: MPC
+    Created Date: Oct 5, 2016
+    Updated: Oct 5, 2016
+-->
+<!--
+    HEAD - Info about the document
+-->
+    <head>
+<!-- Metadata -->
+        <meta charset="utf-8">
+        <meta name = "author" content = "Gutenberg Duarte Neves de Barros">
+        <meta name = "description" content = "Analise e sistemas de informacao">
+        <meta name = "Keywords" content = "Cadastro de usuario">
+
+<!-- Links & Scripts -->        
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script type="text/javascript" src="script.js"></script>
+
+    <link rel="icon" type="image/png" href="greenpot_logo_leaf.png" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<!-- END Links --> 
+        
+<!-- Title of the page -->        
+        
+        <title>Cadastro Greenpot: Vida saudavel sem esforço</title>
+    
+    
+    </head>
+    
+    <body>
+			<div class="container-fluid">
+				<div class="row">
+				<ol class="breadcrumb" class="bg-primary" style="background-color: green">
+                    <li style="margin-left: 300px;"><a href="Greenpot-telainicial/index.html" style="color:white">Tela Inicial</a></li>
+					<li><a href="#" style="color:white">cadastro</a></li>
+					<li class="active" style="color:white;font-weight: bold">Cadastro </li>
+                </ol>
+                </div>
+			</div>
+				
+	<div class="container">
+
+			<div class="page-header">
+				<h1 id="header_4" class="form-header" style="text-align:center">
+					Cadastro Usuário
+				</h1>
+			</div>
+
+		<div class="row">
+			<form class="form-horizontal">
+				<div class="row" >
+                <div class="col-sm-1"></div>
+					<div class="form-group">
+						 <div class="col-sm-7">
+							<label for="nome">Nome completo</label>
+							<input class="form-control" id="nome" type="text">
+						</div>
+						<div class="col-sm-3">
+                            <label for="apelido">Nome de usuário</label>
+                            <input class="form-control" id="username" type="text">
+						</div>
+
+					</div>
+				</div>
+
+
+				<div class="row">
+                <div class="col-sm-1"></div>
+					<div class="form-group">
+						 <div class="col-sm-3">
+							<label for="nascimento">Data de Nascimento</label>
+							<input class="form-control" id="nascimento" type="date">
+						</div>
+                        
+                     <div class="col-sm-1">
+							<label for="Idade">Idade</label>
+							<input class="form-control" id="idade" type="value" disabled>
+						</div>
+
+						<div class="col-sm-offset-1 col-sm-2">
+							<label for="sexo" class="control-label">Sexo</label>
+							<div class="row">
+								<label class="radio-inline">
+									<input id="feminino" name="sexo" value="feminino" type="radio"> Feminino
+								</label>
+								<label class="radio-inline">
+									<input id="masculino" name="sexo" value="masculino" type="radio"> Masculino
+								</label>
+							</div>
+
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="row">
+                <div class="col-sm-1"></div>
+					<div class="form-group">
+						<div class="col-sm-5">
+							<label for="email">E-mail</label>
+							<input class="form-control" id="email" placeholder="mail@mail.com" type="email">
+						</div>
+
+					</div>
+				</div>
+                
+				<div class="row">
+                <div class="col-sm-1"></div>
+					<div class="form-group">
+						<div class="col-sm-3">
+							<label for="Senha">Senha</label>
+							<input class="form-control" id="senha" placeholder="******" type="email">
+						</div>
+                        <div class="col-sm-3">
+							<label for="SenhaConfirmation">Confirmação de Senha</label>
+							<input class="form-control" id="senhaconfirmation" placeholder="******" type="email">
+						</div>
+
+					</div>
+				</div>			
+				<div class="row col-sm-10">
+                    <button type="button" class="btn btn-primary pull-right">
+                   <a href=# style="color:white"> Salvar
+                        </a></button>
+                    
+				</div>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
+    
